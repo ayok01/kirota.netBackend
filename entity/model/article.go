@@ -5,6 +5,6 @@ import "time"
 type Article struct {
 	IllustrationImg string
 	Title string
-	Date  time.Time
+	CreateDate  time.Time
 	Description string
 }
